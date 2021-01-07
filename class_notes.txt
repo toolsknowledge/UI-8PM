@@ -1,0 +1,82 @@
+						HTML
+
+	- HTML Stands for Hyper Text Markup Language.
+
+	- HTML Introduced by Tim Berners-Lee.
+
+	- HTML, used to develop the static web pages.
+
+	HTML 1.0	==>  1991
+
+	HTML 2.0	==>  1995
+
+	HTML 3.2	==>  1997
+
+	HTML 4.0.1      ==>  1999
+
+	XHTML		==>  2000
+
+	HTML5		==>  2014
+
+	- we will save the HTML files with ".html" or ".htm" extension
+	
+	- Recomended IDE to develop web pages is "VisualStudioCode".
+
+	- "VisualStudioCode" IDE, given by microsoft and it is a open source.
+
+	- we will execute web pages by using browsers.
+
+		Ex.
+			Google Chrome
+
+			Mozilla
+
+			IE
+
+			Opera
+
+	- we will develop web pages by using Tags.	
+
+		Ex.
+			html
+
+			head
+
+			body
+
+			title
+
+			---
+			---
+			---
+
+	- we will apply styles to the web pages by using "CSS".
+
+	- "CSS" Stands for Cascading Style Sheet.
+	
+	- we will convert static web page to dynamic web page with the help of javascript.
+
+
+1) download and install Visual Studio Code
+
+	website : https://code.visualstudio.com/docs/?dv=win
+
+	file    : VSCodeUserSetup-x64-1.52.1.exe
+	
+
+2) download and install Git
+
+	Git is the tool, used to interact with the GitHub.
+
+	website : https://git-scm.com/downloads
+
+	file    : Git-2.30.0-64-bit.exe
+
+3) install Google Chrome
+
+
+
+
+
+
+
