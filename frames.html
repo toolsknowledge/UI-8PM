@@ -1,9 +1,66 @@
-<frameset rows="50,*,50">
-    <frame src="header.html"></frame>
-    <frameset cols="200,*,200">
-        <frame src="leftmenu.html"></frame>
-        <frame src="body.html"></frame>
-        <frame src="rightmenu.html"></frame>
-    </frameset>
-    <frame src="footer.html"></frame>
-</frameset>
+<!--
+   - loading multiple webpages, in a main webpage called as Frames.
+   
+   - we will implement frames by using <frameset></frameset>
+
+   - the child tag of <frameset> tag is <frame> tag
+
+    => header.html
+
+    => leftmenu.html
+
+    => body.html
+
+    => rightmenu.html
+
+    => footer.html
+
+    => frames.html
+
+    -------------------------------------------------------
+    angular.html
+
+    reactjs.html
+
+    vuejs.html
+    -----------------------------------------------------
+
+
+    ---------------------------------------------------
+    html5.html
+    css3.html
+    ---------------------------------------------------
+-->
+
+        <frameset rows="50,*,30">
+            <frame src="header.html"></frame>
+            <frameset cols="150,*,150">
+                <frame src="leftmenu.html"></frame>
+                <frame src="body.html" name="content_here"></frame>
+                <frame src="rightmenu.html"></frame>
+            </frameset>
+            <frame src="footer.html"></frame>
+        </frameset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
