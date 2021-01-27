@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Comic Sans MS;
+    background: linear-gradient(45deg,salmon,pink,salmon);
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-class{
+    background: linear-gradient(45deg,red,black,red);
+    color: whitesmoke;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 50%;
+    text-shadow: 0 0 10px black;
+}
+
+.my-text{
+    color: gray;
+    text-align: justify;
+    font-size: 1rem;
+    padding: 1rem;
+}
