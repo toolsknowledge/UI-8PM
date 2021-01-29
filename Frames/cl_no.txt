@@ -1,0 +1,23 @@
+Frames
+======
+    - used to embed one template to another template
+
+***************************************
+Frames 
+     header.html
+     footer.html
+     leftmenu.html
+     body.html
+     rightmenu.html
+    
+
+     frames.html
+
+     ######################################
+     angular.html
+     react.html
+
+     corejava.html
+     advjava.html
+     #####################################
+****************************************
