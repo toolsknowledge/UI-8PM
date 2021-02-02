@@ -1,190 +1,222 @@
 <!--
-    HTML Supports 3 types of lists
-    1) unordered list
-    2) ordered list
-    3) definition list
+    Lists in HTML
+    =============
+        HTML Supports three types of lists
 
-    <ul></ul> tag used to create the unordered list
-    <ol></ol> tag used to create the ordered list
-    <dl></dl> tag used to create the definition list
+        1) unordered list
+
+        2) ordered list
+
+        3) definition list
+
+        <ul></ul> tag, used to create the unordered list
+
+        <ol></ol> tag, used to create the ordered list
+
+        <dl></dl> tag, used to create the definition list
 -->
 
 <!--
-<ul>
-    <li>Angular</li>
-    <li>ReactJS</li>
-    <li>VueJS</li>
-    <li>MongoDB</li>
-    <li>NodeJS</li>
-</ul>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists</title>
+        <style>
+            div{
+                display: inline-block; 
+                margin: auto;
+            }
+            ul{
+                background-color: salmon;
+                color: white;
+                margin: 2rem;
+            }
+            li{
+                background-color: green;
+                margin: 0.5rem;
+                padding: 0.5rem;
+                border-radius: 0.5rem;
+            }
 
-<ul type="circle">
-    <li>Angular</li>
-    <li>ReactJS</li>
-    <li>VueJS</li>
-    <li>MongoDB</li>
-    <li>NodeJS</li>
-</ul>
 
-<ul type="square">
-    <li>Angular</li>
-    <li>ReactJS</li>
-    <li>VueJS</li>
-    <li>MongoDB</li>
-    <li>NodeJS</li>
-</ul>
+        </style>
+    </head>
+    <body>
+        <div>
+            <div>
+                <ul>
+                    <li>Angular</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                    <li>VueJS</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+
+
+            <div>
+                <ul type="circle">
+                    <li>Angular</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                    <li>VueJS</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+
+
+            <div>
+                <ul type="square">
+                    <li>Angular</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                    <li>VueJS</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+
+
+            <div>
+                <ul type="disc">
+                    <li>Angular</li>
+                    <li>ReactJS</li>
+                    <li>NodeJS</li>
+                    <li>VueJS</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>
 -->
+
+
 
 <!--
-<style>
-    ul{
-        background-color: violet;
-        color: whitesmoke;
-        font-size: 2rem;
-        width: 20%;
-        margin: 1rem auto;
-    }
-    ul li{
-        background-color: saddlebrown;
-        margin: 1rem 0rem;
-        padding: 0.5rem;
-        border-radius: 2rem;
-    }
-    
-</style>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ordered List</title>
+        <style>
+            div{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <ol>
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>VueJS</li>
+                <li>MongoDB</li>
+            </ol>
+        </div>
 
-<ul>
-    <li>Hello_1</li>
-    <li>Hello_2</li>
-    <li>Hello_3</li>
-    <li>Hello_4</li>
-    <li>Hello_5</li>
-</ul>
--->
+        <div>
+            <ol type="A">
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>VueJS</li>
+                <li>MongoDB</li>
+            </ol>
+        </div>
 
-<!--
-<style>
-    ol{
-        display: inline-block;
-        background-color: saddlebrown;
-        width: 10%;
-        margin: 1rem;
-        padding: 1.5rem;
-        color: whitesmoke;
-        border-radius: 20%;
-        list-style-type: none;
-    }
-    ol li{
-        background-color: tomato;
-        margin: 0.5rem;
-        padding: 0.5rem;
-        border-radius: 25%;
-    }
-</style>
+        <div>
+            <ol type="a">
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>VueJS</li>
+                <li>MongoDB</li>
+            </ol>
+        </div>
 
 
+        <div>
+            <ol type="i">
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>VueJS</li>
+                <li>MongoDB</li>
+            </ol>
+        </div>
 
-<div>
+        <div>
+            <ol type="I">
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>VueJS</li>
+                <li>MongoDB</li>
+            </ol>
+        </div>
 
-    <ol>
-        <li>Hello_1</li>
-        <li>Hello_2</li>
-        <li>Hello_3</li>
-        <li>Hello_4</li>
-        <li>Hello_5</li>
-    </ol>
+        <div>
+            <ol type="I" start="5">
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>VueJS</li>
+                <li>MongoDB</li>
+            </ol>
+        </div>
 
-    <ol type="A">
-        <li>Hello_1</li>
-        <li>Hello_2</li>
-        <li>Hello_3</li>
-        <li>Hello_4</li>
-        <li>Hello_5</li>
-    </ol>
+        <div>
+            <ol type="I" start="5" reversed>
+                <li>Angular</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>VueJS</li>
+                <li>MongoDB</li>
+            </ol>
+        </div>
 
-    <ol type="a">
-        <li>Hello_1</li>
-        <li>Hello_2</li>
-        <li>Hello_3</li>
-        <li>Hello_4</li>
-        <li>Hello_5</li>
-    </ol>
-
-    <ol type="I">
-        <li>Hello_1</li>
-        <li>Hello_2</li>
-        <li>Hello_3</li>
-        <li>Hello_4</li>
-        <li>Hello_5</li>
-    </ol>
-
-    <ol type="i">
-        <li>Hello_1</li>
-        <li>Hello_2</li>
-        <li>Hello_3</li>
-        <li>Hello_4</li>
-        <li>Hello_5</li>
-    </ol>
-
-    <ol start="6" reversed>
-        <li>Hello_1</li>
-        <li>Hello_2</li>
-        <li>Hello_3</li>
-        <li>Hello_4</li>
-        <li>Hello_5</li>
-    </ol>
-</div>
+    </body>
+</html>
 -->
 
 
-<style>
-    dl{
-        border: 2px dotted gray;
-        padding: 2rem 0.5rem;
-    }
-    dd{
-        text-align: justify;
-        margin-bottom: 1rem;
-    }
-    
-</style>
 
 
 
-<dl>
-    <dt>Angular</dt>
-    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, at ea. Fugit assumenda reiciendis asperiores facilis repellat sunt adipisci quae!</dd>
-
-    <dt>ReactJS</dt>
-    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque hic similique eveniet sapiente fuga, iste dicta voluptatem, assumenda provident vero ratione eius reprehenderit libero debitis magnam sint harum aliquid alias. Ea voluptatibus possimus accusamus culpa corrupti? In, eligendi ipsum. Eum sit ab obcaecati? Obcaecati quod corrupti, laboriosam sit nam reiciendis dolore sequi sed reprehenderit consequatur, impedit nulla modi et praesentium mollitia id esse animi cupiditate, nemo deleniti ducimus vitae amet soluta porro! Vitae non neque suscipit nam dolor similique cum debitis aperiam, eos tempora quidem sequi rerum, id autem quo, nulla accusamus! Culpa recusandae possimus nesciunt quis vel qui.</dd>
-
-    <dt>VueJS</dt>
-    <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem quibusdam sunt nam libero molestias ipsam odio temporibus quo consectetur amet. Vero saepe quo quaerat, quis esse quae porro, recusandae rerum quod iste provident eum laborum accusamus beatae autem cupiditate! Illum provident odio eum ut impedit, explicabo accusantium iste possimus porro deserunt repellat voluptates autem similique quidem molestias labore doloribus reprehenderit quo animi quisquam aliquid dolore assumenda voluptatum doloremque? Sequi nemo et ab officia, illum culpa sint nostrum error dolorem, sunt aliquid, iusto natus a odit blanditiis dolores minus. Quas ab tempore placeat blanditiis tenetur deleniti obcaecati, iusto inventore tempora rerum nihil explicabo quaerat, officiis quis delectus saepe voluptatibus error sint at? Inventore adipisci eius quaerat fuga iure, nulla ratione magni soluta labore quos est amet a obcaecati omnis repudiandae aut eaque ab sequi ducimus! Consequatur delectus vel iusto nobis aut porro iste aliquid sed ipsum suscipit sint fugiat hic omnis repellat voluptatum consectetur similique tenetur error repudiandae laboriosam dolor, dicta possimus, facilis molestiae. Et sit recusandae, velit, repellat voluptatum quasi pariatur dolores laborum earum ad a inventore quidem commodi! Nam natus deleniti similique rem sequi omnis tempore voluptatum, corrupti sint perferendis, eligendi, atque magni quos delectus deserunt nihil dolorum explicabo.</dd>
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Definition List</title>
+        <style>
+            dl{
+                border: 1px solid salmon;
+                padding: 1rem;
+            }
+            dd{
+                background-color: sandybrown;
+                width: 5rem;
+                color: white;
+                padding: 0.5rem;
+                text-align: center;
+                border-radius: 0.5rem;
+                font-size: 1.5rem;
+                margin: 0 auto;
+            }
+            dt{
+                color: gray;
+                text-align: justify;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <dl>
+            <dd>Angular</dd>
+            <dt>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ea tempora voluptatum vel nostrum, itaque qui, neque eaque recusandae animi ex odit quam eos, quis iure illo quae officia perspiciatis ad quidem atque dolore praesentium omnis voluptas. Provident cumque mollitia veniam itaque delectus ex earum, sapiente blanditiis? Cupiditate sunt asperiores consequuntur dolor accusantium laborum ad minima, deserunt vero sequi accusamus laboriosam a quas harum suscipit repellat. Aliquid exercitationem, quos sunt similique explicabo esse? Alias, ullam debitis cupiditate, voluptatibus totam natus dolorum praesentium exercitationem dicta ut cum voluptatum animi minima quod rem magni sed dignissimos fuga aut et sint laborum odio!</dt>
+        </dl>
+    </body>
+</html>
 
 
 
