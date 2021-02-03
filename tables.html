@@ -1,334 +1,166 @@
-<!--
-    1) <table>
-
-    2) <tr>
-
-    3) <th>
-
-    4) <td>
-
-    5) <thead>
-
-    6) <tbody>
--->
-
-<!--
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Tables in HTML</title>
-    </head>
-    <body>
-        <table border="1"
-               cellspacing="10px"
-               cellpadding="10px"
-               align="center">
-            <thead>
-                <tr>
-                    <th>SNO</th>
-                    <th>Product Name</th> 
-                    <th>Product Cost</th>
-                    <th>Product Quantity</th>
-                    <th>Image</th>   
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Shirt</td>
-                    <td>$100</td>
-                    <td>100</td>
-                    <td><img width="100px" height="50px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p1.jpg"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Shirt</td>
-                    <td>$100</td>
-                    <td>100</td>
-                    <td><img width="100px" height="50px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p2.jpg"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Shirt</td>
-                    <td>$100</td>
-                    <td>100</td>
-                    <td><img width="100px" height="50px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p3.jpg"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Shirt</td>
-                    <td>$100</td>
-                    <td>100</td>
-                    <td><img width="100px" height="50px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p4.jpg"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Shirt</td>
-                    <td>$100</td>
-                    <td>100</td>
-                    <td><img width="100px" height="50px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p5.jpg"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Shirt</td>
-                    <td>$100</td>
-                    <td>100</td>
-                    <td><img width="100px" height="50px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p6.jpg"></td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
-</html>
--->
-
-
-<!--
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Tables</title>
-    </head>
-    <body>
-        <table border="1"
-               cellspacing="10px"
-               cellpadding="10px"
-               align="center"
-               style="text-align: center;">
-            <thead>
-                <tr>
-                    <th>SNO</th>
-                    <th>P_ID</th>
-                    <th>P_NAME</th>
-                    <th>P_COST</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td rowspan="3">1</td>
-                    <td>111</td>
-                    <td>p_one</td>
-                    <td>10000</td>
-                </tr>
-                <tr>
-                    <td>222</td>
-                    <td colspan="2">p_two &  20000</td>
-                </tr>
-                <tr>
-                    <td>333</td>
-                    <td>p_three</td>
-                    <td>30000</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td colspan="2">444 & p_four</td>
-                    <td rowspan="2">40000 <br><br><br> 50000</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td rowspan="2">555 <br><br> 666</td>
-                    <td>p_five</td>
-                    
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>p_six</td>
-                    <td>60000</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td colspan="3">777 & p_seven & 70000</td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>888</td>
-                    <td>p_eight</td>
-                    <td>80000</td>
-                </tr>
-                <tr>
-                    <td>9</td>
-                    <td>999</td>
-                    <td>p_nine</td>
-                    <td>90000</td>
-                </tr>
-                <tr>
-                    <td colspan="4">10    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 1000  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | p_ten    | 100000</td>
-                </tr>
-            </tbody>
-        </table>
-    </body>
-</html>
--->
-
-
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Tables</title>
+        <title>Tables</title>
         <style>
-            table, th, td{
-                border: 0.1rem solid gray;
-                border-collapse: collapse;
+            table,td,th{
+                border: 1px solid salmon;
                 text-align: center;
-            } 
+            }
             table{
-                width: 100%;
-            }  
+                border-collapse: collapse;
+            }
             th{
-                height: 50px;
-                vertical-align: bottom;
-                background-color: indianred;
-                color: whitesmoke;
-                font-family: Comic Sans MS;
+                padding: 10px;
+                background: linear-gradient(90deg,red,black,red);
+                color: white;
             }
             td{
-                padding: 1rem;
+                padding: 10px;
             }
-            tr:nth-child(odd){
-                background-color: lightgrey;
+            tr:nth-child(even){
+                background-color: gainsboro;
             }
             tr:hover{
-                background-color: lightsalmon;
+                background-color: indianred;
+            }
+            img{
+                width: 100px;
+                padding: 10px;
+                background-color: gainsboro;
+                border: 2px solid green;
+                border-radius: 0.5rem;
             }
         </style>
     </head>
     <body>
-        <div style="overflow-x: auto;">
-            <table>
-                <tr>
-                    <th>SNO</th>
-                    <th>Name</th>
-                    <th>Cost</th>
-                    <th>Brand</th>
-                    <th>Quantity</th>
-                    <th>Image</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop1.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop2.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop3.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop4.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop5.jpeg" width="20%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop6.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop7.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop8.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop9.jpeg" width="30%"></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Laptop</td>
-                    <td>200000</td>
-                    <td>Dell</td>
-                    <td>10</td>
-                    <td><img src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop10.jpeg" width="30%"></td>
-                </tr>
-            </table>
-        </div>
+       <!-- <table>
+           <tr>
+               <th>SNO</th>
+               <th>P_ID</th>
+               <th>P_NAME</th>
+               <th>P_COST</th>
+               <th>Image</th>
+           </tr>
+           <tr>
+               <td>1</td>
+               <td>P101</td>
+               <td>Laptop</td>
+               <td>20000</td>
+               <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop1.jpeg"></td>
+           </tr>
+           <tr>
+               <td>2</td>
+               <td>P102</td>
+               <td>Camera</td>
+               <td>30000</td>
+               <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Camera/camera1.jpeg"></td>
+           </tr>
+           <tr>
+               <td>3</td>
+               <td>P103</td>
+               <td>Jeans</td>
+               <td>2000</td>
+               <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Cloths/jeans1.jpeg"></td>
+           </tr>
+           <tr>
+                <td>4</td>
+                <td>P104</td>
+                <td>Mobile</td>
+                <td>50000</td>
+                <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Mobile/mobile1.jpeg"></td>
+           </tr>
+           <tr>
+                <td>5</td>
+                <td>P105</td>
+                <td>TV</td>
+                <td>60000</td>
+                <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/TV/tv1.jpeg"></td>
+           </tr>
+       </table> -->
+
+       <!---
+       <table border="1"
+              cellspacing="10px"
+              cellpadding="10px"
+              align="center">
+           <tr>
+               <th>SNO</th>
+               <th>P_ID</th>
+               <th colspan="2">P_NAME & P_COST</th>
+           </tr>
+           <tr>
+               <td rowspan="2">1</td>
+               <td>P101</td>
+               <td>P_ONE</td>
+               <td>10000</td>
+           </tr>
+           <tr>
+                <td rowspan="2">P102</td>
+                <td colspan="2">P_TWO & 20000</td>
+           </tr>
+           <tr>
+                <td>3</td>
+                <td>P_THREE</td>
+                <td rowspan="3">30000</td>
+           </tr>
+           <tr>
+                <td colspan="3">4  P104  P_FOUR</td>
+                
+           </tr>
+           <tr>
+                <td>5</td>
+                <td>P105</td>
+                <td>P_FIVE</td>
+                
+       </tr>
+       </table>
+        -->
+        <table align="center">
+            <tr>
+                <th>SNO</th>
+                <th>P_ID</th>
+                <th>P_NAME</th>
+                <th>P_COST</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>P101</td>
+                <td>Laptop</td>
+                <td>20000</td>
+                <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Laptop/laptop1.jpeg"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>P102</td>
+                <td>Camera</td>
+                <td>30000</td>
+                <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Camera/camera1.jpeg"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>P103</td>
+                <td>Jeans</td>
+                <td>2000</td>
+                <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Cloths/jeans1.jpeg"></td>
+            </tr>
+            <tr>
+                 <td>4</td>
+                 <td>P104</td>
+                 <td>Mobile</td>
+                 <td>50000</td>
+                 <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/Mobile/mobile1.jpeg"></td>
+            </tr>
+            <tr>
+                 <td>5</td>
+                 <td>P105</td>
+                 <td>TV</td>
+                 <td>60000</td>
+                 <td><img width="100px" src="https://allproductsc.s3.ap-south-1.amazonaws.com/TV/tv1.jpeg"></td>
+            </tr>
+        </table>
+
+
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
